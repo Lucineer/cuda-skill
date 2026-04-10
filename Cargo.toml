@@ -1,0 +1,8 @@
+[package]
+name = "cuda-skill"
+version = "0.1.0"
+edition = "2021"
+description = "Skill system — capabilities that improve with use, have prerequisites, and can be shared between agents"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
