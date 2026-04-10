@@ -2,7 +2,7 @@
 name = "cuda-skill"
 version = "0.1.0"
 edition = "2021"
-description = "Skill management — proficiency levels, prerequisites, synergies"
+description = "Skill management with proficiency levels and synergies"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Lucineer/cuda-skill"
 readme = "README.md"
@@ -11,3 +11,4 @@ categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
+
