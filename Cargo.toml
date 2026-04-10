@@ -2,7 +2,12 @@
 name = "cuda-skill"
 version = "0.1.0"
 edition = "2021"
-description = "Skill system — capabilities that improve with use, have prerequisites, and can be shared between agents"
+description = "Skill management — proficiency levels, prerequisites, synergies"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-skill"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
